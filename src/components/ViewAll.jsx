@@ -35030,8 +35030,9 @@ const ViewAll = () => {
                                              
                                             <div class="card-body">
                                             <img src={value.url} className="card-img-top" alt="..." />
-                                            <img src={value.thumbnailUrl} className="card-img-top" alt="..." />
+                                            
                                                 <h5 class="card-title">Album ID:{value.albumId}</h5>
+                                                <img src={value.thumbnailUrl} class="" height="25px"alt="..." />
                                                 <p class="card-text">ID:{value.id}</p>
                                                 <p class="card-text">Title:{value.title}</p>
                                                
